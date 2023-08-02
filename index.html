@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debasis Behera</title>
+
+    <style>
+       
+        body{
+            margin: 0;
+            padding: 0;
+            
+        }
+        
+        .navbar-item{
+            display: flex;
+            padding: 5px;
+            background-color: #FFFFFF;
+            align-items: center;
+            border-bottom: 1px solid rgba(0,0,0,0.07);
+        }
+        a{
+            text-decoration: none;
+            padding-left: 2rem;
+            font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .name{
+            color: #000000;
+            padding-right: 650px;
+            font-size: 24px;
+            font: bold;
+        }
+        .image-profile{
+            object-position: left;
+            padding-right: 4rem;
+        }
+        .home-section{
+            display: flex;
+        }
+        .hero-heding{
+            font-family: 'Inter', sans-serif;
+            font-size: 100px;
+            padding-top: 3rem;
+            margin-top: 7rem;
+            margin-bottom: 0px;
+        }
+        .hero-para{
+            font-family: 'Inter', sans-serif;
+            padding-left: 0.5rem;
+            margin-top: 0px;
+            font-size: 24px;
+            color: #68696B;
+        }
+        
+        
+        .box-element{
+            position: relative;
+        }
+        .arrow{
+            padding-right: 3px;
+            padding-bottom: 30px;
+            transform: rotate(-90deg);
+            width: 28px;
+            height: 23px;
+        }
+        
+        .hero-home{
+            background-color: #E8E6E6;
+        }
+        
+        
+        .email-id{
+            margin-top: 10px;
+            font-family: 'Inter', sans-serif;
+            font-size: 20px;
+        }
+        .about-hello{
+            
+            position: absolute;
+        }
+        .hello-there{
+            color:#a4b4bf;
+            margin: 0px;
+            padding-top: 200px;
+            font-family: 'Inter', sans-serif;
+            padding-left: 100px;
+            font-size: 75px;
+        }
+        .about-section{
+            
+            height: 730px;
+           background-color: #000000;
+        }
+        .about-para{
+            color: #FFFFFF;
+            font-family: 'Inter', sans-serif;
+            font-size: 50px;
+            padding: 120px 0px 0px 315px;
+        }
+        .about-text{
+            display: flex;
+        }
+        .qualifictions-logo{
+            width: 95px;
+            height: 126px;
+            padding-top: 3.5rem;
+            padding-left: 4rem;
+        }
+        .qualifications-section{
+            background-color: #a4b4bf;
+            height: 860px;
+        }
+        .qualifications-h{
+            margin: 0px;
+            font-family: 'Inter', sans-serif;
+            font-size: 78px;
+            letter-spacing: 0.5rem;
+        }
+        .qualifications-element{
+           padding-top: 115px;
+           padding-left: 125px;
+            
+        }
+        .rectangle-box {
+            width: 177px;
+            height: 61px;
+           display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid #000000;
+            margin-top: 80px;
+        }
+        .box-text {
+            font-family: 'Inter', sans-serif;
+            font-size: 20px;
+            color: #000000; 
+        }
+        .education{
+            font-family: 'Inter', sans-serif;
+            font-size: 48px;
+            margin-top: 2rem;
+            margin-bottom: 0;
+        }
+        .graduation{
+            font-family: 'Radley', serif;
+            font-size: 45px;
+            margin-top: 2rem;
+            margin-bottom: 0;
+        }
+        .grad-detail{
+            font-family: 'Inter', sans-serif;
+            font-size: 28px;
+            margin-top: 1rem;
+            line-height: 1.5;
+        }
+        .tewelth{
+            font-family: 'Radley', serif;
+            font-size: 45px;
+            margin-top: 2rem;
+            margin-bottom: 0;
+        }
+        .int-detail{
+            font-family: 'Inter', sans-serif;
+            font-size: 28px;
+            margin-top: 1rem;
+            line-height: 1.5;
+        }
+        .education-details{
+            display: flex;
+        }
+        .grad{
+            padding-right: 350px;
+        }
+        .skill-logo{
+            height: 138px;
+            width: 115px;
+            padding-left: 90px;
+        }
+        .skill-element{
+           
+            display: flex;
+            position: relative;
+            top: 70px;
+            padding-bottom: 70px;
+        }
+        .skill-text{
+            font-family: 'Inter', sans-serif;
+            font-size: 76px;
+            letter-spacing: 0.5rem;
+            margin-top: 3rem;
+            margin-left: 1rem;
+        }
+        .skill-section{
+            background-color: #E8E6E6;
+            height: 868px;
+        }
+        .skill-details{
+            
+            display: flex;
+            justify-content: space-around;
+        }
+        .py-text{
+            font-family: 'Radley', serif;
+            font-size: 42px;
+            margin-top: 1rem;
+            margin-bottom: 0;
+        }
+        .py-des{
+            font-family: 'Radley', serif;
+            font-size: 24px;
+        }
+        .web-text{
+            font-family: 'Radley', serif;
+            font-size: 42px;
+            margin-top: 1rem;
+            margin-bottom: 0;
+        }
+        .web-des{
+            font-family: 'Radley', serif;
+            font-size: 24px;
+        }
+        .hobbies-section{
+            height: 868px;
+            background: linear-gradient(90deg, #a6a6a6, #ffffff);
+        }
+        .hobbies-text{
+            margin-top: 0;
+            font-family: 'Inter', sans-serif;
+            font-size: 75px;
+            letter-spacing: 1rem;
+            padding-top: 6rem;
+            padding-left: 12rem;
+
+        }
+        .read-text{
+            font-family: 'Radley', serif;
+            font-size: 42px;
+            margin-top: 1rem;
+        }
+        .read-des{
+            font-family: 'Radley', serif;
+            font-size: 24px;
+        }
+        .codinglogo{
+            width: 133px;
+            height: 96px;
+        }
+        .code-text{
+            font-family: 'Radley', serif;
+            font-size: 42px;
+            margin-top: 1rem;
+        }
+        .code-des{
+            font-family: 'Radley', serif;
+            font-size: 24px;
+        }
+        .hobbies-details{
+            display: flex;
+            justify-content: space-around;
+        }
+        .dot{
+            height: 333px;
+            width: 608px;
+        }
+        .contact-section{
+            height: 868px;
+            background-color: #f5eddc;
+            display: flex;
+            justify-content: center;
+        }
+        .contact-text{
+            margin: 0;
+            font-family: 'Oswald',sans-serif;
+            font-size: 120px;
+            
+        }
+        .contact-details{
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 33px;
+        }
+
+    </style>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Radley&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="navbaar-area">
+        <div class="container">
+            <div>
+                <nav class="navbaar">
+                    <div class="navbar-item">
+                        <a class="name" href="">
+                            <div>Debasis Behera</div>
+                        </a>
+                        <a class="home" href="#home-area">
+                            <div>Home</div>
+                        </a>
+                        <a class="about" href="#about-area">
+                            <div>About Me</div>
+                        </a>
+                        <a class="qualifications" href="#qualifications-area">
+                            <div>Qualifications</div>
+                        </a>
+                        <a class="skills" href="#skills-area">
+                            <div>Skills</div>
+                        </a>
+                        <a class="hobbies" href="#hobbies-area">
+                            <div>Hobbies</div>
+                        </a>
+                        <a class="contact" href="#contact-area">
+                            <div>Contact me</div>
+                        </a>
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+    </section>
+    <section id="home-area">
+        <div class="container">
+            <div class="hero-home">
+                <div class="home-section">
+                    <div class="profile-image">
+                        <img src="./profile.jpeg" class="image-profile" alt="profile-image" width="700px" height="787px">
+                    </div>
+                    <div>
+                        <h1 class="hero-heding">Debasis <br/>Behera</h1>
+                        <p class="hero-para">A Mathematics student</p>
+                        <div class="rectangle-box">
+                            <span class="box-image"><img src="./thumbnail.webp" class="arrow" alt="arrow"></span>
+                            <span class="box-text">Email me</span>
+                        </div>
+                        <div>
+                            <p class="email-id">amdebasis8@gmail.com</p>
+                        </div>
+                        
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about-area">
+        <div class="container">
+            <div class="about-section">
+                <div class="about-hello">
+                    <div class="about-text">
+                        <h1 class="hello-there">Hello there!</h1>
+                        <p class="about-para">My name is Debasis and<br/> I'm a B. Sc. Mathematics<br/> student at<br/> Utkal University. </p>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="qualifications-area">
+        <div class="container">
+            <div class="qualifications-section">
+                <div class="qualifications-element">
+                    <div class="qualifications-text">
+                        <p class="qualifications-h">Qualifications</p>
+                    </div>
+                    <div class="logo-box">
+                        <svg class="qualifictions-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-name="Layer 3" preserveAspectRatio="xMidYMid meet" version="1.0" viewBox="-0.0 -0.1 224.2 297.2" zoomAndPan="magnify" style="fill: rgb(0, 0, 0);" original_string_length="1736"><g id="__id8_sw6w3g7bea"><path d="M112.1,127.784a1.491,1.491,0,0,1-.724-.187L.775,66.575a1.5,1.5,0,0,1-.026-2.612L111.04.2a1.5,1.5,0,0,1,1.481-.012L223.434,61.941a1.5,1.5,0,0,1,.014,2.614l-110.6,63.032A1.5,1.5,0,0,1,112.1,127.784ZM4.55,65.231l107.54,59.333,107.558-61.3L111.805,3.225Z" style="fill: rgb(0, 0, 0);"/></g><g id="__id9_sw6w3g7bea"><path d="M109.087,175.858A52.813,52.813,0,0,1,62.193,98.792a1.5,1.5,0,0,1,2.664,1.381A49.233,49.233,0,0,0,59.3,123.065,49.793,49.793,0,1,0,154.27,102.11a1.5,1.5,0,0,1,2.721-1.264,52.818,52.818,0,0,1-47.9,75.012Z" style="fill: rgb(0, 0, 0);"/></g><g id="__id10_sw6w3g7bea"><path d="M112.1,219.178a1.493,1.493,0,0,1-.736-.193l-89.731-50.55a1.5,1.5,0,0,1-.079-2.565l39-25.251a1.5,1.5,0,1,1,1.631,2.517l-36.917,23.9,86.823,48.912L197.9,166.324,156.783,141.1a1.5,1.5,0,0,1,1.568-2.557l43.262,26.543a1.5,1.5,0,0,1-.033,2.578l-88.727,51.316A1.5,1.5,0,0,1,112.1,219.178Z" style="fill: rgb(0, 0, 0);"/></g><g id="__id11_sw6w3g7bea"><path d="M112.1,276.622a1.492,1.492,0,0,1-.753-.2L21.618,224.336a1.5,1.5,0,0,1-.747-1.3V167.128a1.5,1.5,0,0,1,3,0v55.048l88.213,51.2,87.245-53.094v-53.92a1.5,1.5,0,0,1,3,0v54.762a1.5,1.5,0,0,1-.72,1.282l-88.727,54A1.5,1.5,0,0,1,112.1,276.622Z" style="fill: rgb(0, 0, 0);"/></g><g id="__id12_sw6w3g7bea"><path d="M112.1,297.11a1.5,1.5,0,0,1-.761-.208L2.462,232.756a1.5,1.5,0,0,1-.739-1.276L0,65.277a1.5,1.5,0,0,1,3-.031L4.714,230.6l107.365,63.253,109.126-68.2V63.251a1.5,1.5,0,0,1,3,0V226.486a1.5,1.5,0,0,1-.705,1.272L112.9,296.882A1.5,1.5,0,0,1,112.1,297.11Z" style="fill: rgb(0, 0, 0);"/></g></svg>
+                    </div>
+                    <div class="qual-text-box">
+                        <p class="education"> Education</p>
+                    </div>
+                    <div class="education-details">
+                        <div class="grad">
+                            <p class="graduation">Graduation</p>
+                            <p class="grad-detail">B.Sc. Mathematics <br/> 2020 to 2023 <br/> Utkal University</p>
+                        </div>
+                        <div class="intermediate">
+                            <p class="tewelth">intermediate</p>
+                            <p class="int-detail">12th Science<br/>2018 to 2020<br/>D R Nayapalli H s School</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="skills-area">
+        <div class="container">
+            <div class="skill-section">
+                <div class="skill-element">
+                    <div class="skill-box">
+                        <svg class="skill-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" data-name="Layer 2" preserveAspectRatio="xMidYMid meet" version="1.0" viewBox="-0.1 -0.1 266.6 318.1" zoomAndPan="magnify" style="fill: rgb(0, 0, 0);" original_string_length="2054"><g id="__id19_snhqf6wmic"><path d="M133.245,156.7a1.492,1.492,0,0,1-.754-.2L.746,79.9a1.5,1.5,0,0,1,.005-2.6L134.539.2a1.5,1.5,0,0,1,1.515.01l129.7,77.106a1.5,1.5,0,0,1-.013,2.587L134,156.5A1.5,1.5,0,0,1,133.245,156.7ZM4.494,78.613l128.751,74.855L262.029,78.593,135.276,3.239Z" style="fill: rgb(0, 0, 0);"/></g><g id="__id20_snhqf6wmic"><path d="M133.245,318.064a1.5,1.5,0,0,1-.773-.214L.728,238.7A1.5,1.5,0,0,1,0,237.415V78.607a1.5,1.5,0,0,1,3,0V236.566l130.21,78.228,130.279-85.338V78.607a1.5,1.5,0,0,1,3,0V230.266a1.5,1.5,0,0,1-.677,1.255l-131.746,86.3A1.5,1.5,0,0,1,133.245,318.064Z" style="fill: rgb(0, 0, 0);"/></g><g id="__id21_snhqf6wmic"><path d="M75.543,185.808a1.49,1.49,0,0,1-.682-.164L.818,147.857a1.5,1.5,0,0,1,.428-2.814l88.408-15.215L60.877,44.043a1.5,1.5,0,0,1,2.209-1.754l70.169,43.243L205.274,42.28a1.5,1.5,0,0,1,2.194,1.766l-29.11,86.234a1.5,1.5,0,1,1-2.841-.96l27.8-82.367-69.3,41.621a1.5,1.5,0,0,1-1.559-.01L65.039,47.016l28.016,83.517a1.5,1.5,0,0,1-1.168,1.955L6.2,147.235l69.348,35.392,57.023-28.764a1.5,1.5,0,0,1,1.287-.03L193,180.256a1.5,1.5,0,1,1-1.224,2.738l-58.5-26.131L76.218,185.647A1.49,1.49,0,0,1,75.543,185.808Z" style="fill: rgb(0, 0, 0);"/></g><g id="__id22_snhqf6wmic"><path d="M133.245,318.064a1.5,1.5,0,0,1-1.5-1.5V87.287a1.5,1.5,0,0,1,3,0V316.564A1.5,1.5,0,0,1,133.245,318.064Z" style="fill: rgb(0, 0, 0);"/></g><g id="__id23_snhqf6wmic"><path d="M75.541,283.4a1.5,1.5,0,0,1-1.257-2.316l57.7-88.908a1.5,1.5,0,0,1,2.5-.033l55.805,81.306.607-91.832a1.5,1.5,0,0,1,.854-1.345l68.5-32.638-83.6-16.36a1.5,1.5,0,0,1,.577-2.945l88.051,17.233a1.5,1.5,0,0,1,.358,2.826l-71.748,34.189-.632,95.672a1.5,1.5,0,0,1-2.736.839l-57.24-83.4L76.8,282.715A1.5,1.5,0,0,1,75.541,283.4Z" style="fill: rgb(0, 0, 0);"/></g><g id="__id24_snhqf6wmic"><path d="M75.543,283.4a1.5,1.5,0,0,1-1.5-1.5v-97.59a1.5,1.5,0,0,1,3,0V281.9A1.5,1.5,0,0,1,75.543,283.4Z" style="fill: rgb(0, 0, 0);"/></g></svg>
+                    </div>
+                    <div class="skill-div">
+                        <p class="skill-text">Skills</p>
+                    </div>
+                </div>
+                <div class="skill-details">
+                    <div class="py">
+                        <img src="./t.webp" alt="pyLogo" class="pylogo" height="108" width="">
+                        <p class="py-text">Python</p>
+                        <p class="py-des">Beginner Python Proficiency:<br/>Knowledgeable in Python<br/>fundamentals, including<br/>syntax and basic programming<br/>concepts. Enthusiastic about<br/>expanding skills and utilizing<br/>Python to solve diverse<br/>challenges in a collaborative<br/>team environment.</p>
+                    </div>
+                    <div class="webd">
+                        <img src="./webdev.webp" alt="WebDev" class="webdlogo" height="110" width="110">
+                        <p class="web-text">Web Development</p>
+                        <p class="web-des">Beginner Web Development<br/>Proficiency: Familiar with<br/>HTML, CSS, and basic<br/>JavaScript concepts. Eager to<br/>learn and apply web development<br/>principles to create visually<br/>appealing and user-friendly<br/>websites. Strong passion for<br/>continuous growth in the field.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="hobbies-area">
+        <div class="container">
+            <div class="hobbies-section">
+                <div class="hobbies-element">
+                    <div class="hobbies-box">
+                        <p class="hobbies-text">Hobbies</p>
+                    </div>
+                    <div class="hobbies-details">
+                        <div class="reading">
+                            <img src="./95bc8190-1bbb-431d-ad3f-39f4490bde7a.png" alt="book" class="booklogo" height="96" width="162">
+                            <p class="read-text">Reading</p>
+                            <p class="read-des">Escaping into vibrant worlds,<br/>unraveling captivating plots,<br/>and connecting with complex<br/>characters, reading novels<br/>fuels my imagination,<br/>broadens my perspectives, and<br/>offers a sanctuary of endless<br/>possibilities.</p>
+                        </div>
+                        <div class="coding">
+                            <svg class="codinglogo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" version="1.0" viewBox="9.1 27.3 125.9 90.0" zoomAndPan="magnify" style="fill: rgb(38, 19, 16);" original_string_length="5395"><g id="__id26_sj1qiktyk"><path d="M127.8,27.3c-0.8,0-1.6,0-2.4,0H17c-3.5,0-6.8,2-7.6,5.6c-0.2,1.5-0.3,3-0.2,4.5v69.9c-0.1,1.7,0,3.4,0.4,5 c1.1,3.3,4.2,5,7.5,5h110.7c0.2,0,0.4-0.1,0.6-0.2c4-0.4,6.6-3.7,6.6-7.8V35.1C135,30.9,132.1,27.4,127.8,27.3z M11.7,34.5 c0.1-3.1,2.5-4.8,5.4-4.8h100.3c3.4,0,6.9-0.1,10.3,0c3,0.1,4.9,2.4,4.9,5.3v8.7H25.6c-4.7,0-9.3-0.2-13.9,0 C11.6,40.7,11.6,37.6,11.7,34.5z M132.5,109.9c0,2.6-2.1,4.7-4.8,4.8c-0.1,0-0.2,0-0.2,0H17.6c-2.1,0-4.2-0.3-5.3-2.4 c-0.8-1.5-0.6-3.2-0.6-4.9V47.3c0-0.3,0-0.7,0-1h106.9c4.7,0,9.3,0.2,13.9,0v62.6C132.5,109.2,132.5,109.6,132.5,109.9z" style="fill: inherit;"/><path d="M20.1,37.9C20.1,37.8,20,37.8,20.1,37.9L20.1,37.9z" style="fill: inherit;"/><path d="M25,40.2c0.7-0.8,1-1.7,1-2.8c0,0,0,0,0,0c0,0,0,0,0,0c0,0,0,0,0,0c0-0.2,0-0.3,0-0.5c-0.2-1.6-1.3-2.9-2.8-3.5 c-1.6-0.6-3.5-0.1-4.6,1.2c-1.5,1.8-1.3,4.4,0.4,6C20.8,42.1,23.4,41.9,25,40.2z M23.5,37.1C23.5,37.1,23.5,37.2,23.5,37.1 c0,0.1,0,0.1,0,0.1C23.5,37.2,23.5,37.2,23.5,37.1z M20,37.1c0-0.1,0-0.1,0-0.2c0-0.1,0.1-0.2,0.1-0.4l0.1-0.2l0.1-0.2c0,0,0,0,0,0 c0,0,0,0,0,0c0.1-0.1,0.2-0.2,0.3-0.3h0.1c-0.1,0.1,0,0,0.1,0c0.1-0.1,0.3-0.1,0.4-0.2c0,0-0.3,0.1-0.1,0l0.2-0.1h0.2 c0,0,0,0,0.1,0c0,0,0.1,0,0.1,0H22l0.5,0.1c0.2,0.1,0.2,0.1,0.2,0.1l0.1,0.1l0.1,0.1c-0.1-0.1-0.2-0.1-0.1,0l0.3,0.3 c0,0.1,0.1,0.1,0.1,0.2l0.1,0.2c0,0.1,0,0.2,0.1,0.2c0,0.1-0.1,0.2-0.1,0.3c0,0.1,0,0.1,0,0.2c0,0.1-0.1,0.3-0.1,0.4 c0,0,0,0.1,0,0.1c0,0,0,0,0,0.1c-0.1,0.1-0.2,0.3-0.2,0.4c0,0-0.1,0.1-0.1,0.1c0,0-0.1,0.1-0.1,0.1l-0.1,0c-0.1,0.1-0.1,0.1,0,0 c-0.1,0.1-0.2,0.1-0.2,0.2l-0.1,0.1L21.9,39c0,0,0,0,0,0c0,0,0,0,0,0c-0.1,0-0.1,0-0.2,0h-0.4c-0.1,0-0.2,0-0.2-0.1l-0.2-0.1 c-0.2-0.1,0.1,0,0.1,0c0,0-0.3-0.2-0.3-0.2l-0.2-0.1c0,0-0.3-0.3-0.3-0.3l-0.1-0.1l0-0.1v-0.1c0,0,0,0,0,0c0,0,0,0.1,0,0.1 c0,0-0.1-0.3-0.1-0.4v-0.2V37.1z" style="fill: inherit;"/><path d="M20,37.1C20,36.8,20,37,20,37.1L20,37.1z" style="fill: inherit;"/><path d="M21.9,39L21.9,39C21.8,39,21.7,39,21.9,39z" style="fill: inherit;"/><path d="M35,40c0.6-0.7,0.9-1.6,1-2.5c0-0.1,0-0.1,0-0.2c0,0,0-0.1,0-0.1c0-1.8-1.1-3.4-2.8-4c-1.6-0.6-3.5-0.1-4.6,1.2 c-1.5,1.8-1.3,4.4,0.4,6C30.8,42,33.4,41.8,35,40z M30.1,37.1c0-0.1,0-0.1,0-0.2c0-0.1,0.1-0.2,0.1-0.4l0.1-0.2l0.1-0.2 c0,0,0,0,0,0c0,0,0,0,0,0c0.1-0.1,0.2-0.2,0.3-0.3h0.1c0,0,0,0,0.1,0c0.1-0.1,0.3-0.1,0.4-0.2c0,0-0.3,0.1-0.1,0l0.2-0.1h0.2 c0,0,0,0,0.1,0c0,0,0.1,0,0.1,0H32l0.5,0.1c0.2,0.1,0.2,0.1,0.2,0.1c0,0,0.1,0,0.1,0.1l0,0c0,0,0,0,0.1,0.1l0.3,0.3 c0,0.1,0.1,0.1,0.1,0.2l0.1,0.2c0.1,0.2,0.1,0.3,0.1,0.4c0,0,0,0,0,0c0,0,0,0,0,0c0,0,0,0,0,0c0,0,0,0,0,0c0,0,0,0,0,0.1 c0,0,0,0,0,0c0,0,0,0,0,0.1h0c0,0.1,0,0.1,0,0.2c0,0.1-0.1,0.3-0.1,0.4c0,0,0,0.1,0,0.1c0,0,0,0,0,0.1l-0.2,0.4 c0,0-0.1,0.1-0.1,0.1l-0.1,0.1v0c-0.1,0.1-0.1,0.1,0,0c-0.1,0.1-0.2,0.1-0.2,0.2l-0.1,0.1L32.1,39c-0.1,0-0.1,0-0.2,0h-0.4L31.2,39 L31,38.9c-0.2-0.1,0.1,0,0.1,0c0,0-0.3-0.2-0.3-0.2c0,0-0.1-0.1-0.2-0.1c0,0-0.3-0.3-0.3-0.3l-0.1-0.1l0.1-0.1c0,0,0,0,0,0 c0,0,0,0,0,0l0,0v-0.1c0-0.1-0.1-0.1,0,0c0-0.1-0.1-0.2-0.1-0.3c0,0,0-0.1,0-0.2C30.1,37.4,30.1,37.2,30.1,37.1z" style="fill: inherit;"/><path d="M32.1,39C32.1,39,31.8,39,32.1,39L32.1,39z" style="fill: inherit;"/><path d="M30.1,37.1C30.2,36.8,30.1,37,30.1,37.1L30.1,37.1z" style="fill: inherit;"/><path d="M33.5,37.2C33.5,37.2,33.5,37.2,33.5,37.2C33.5,37.1,33.5,37.1,33.5,37.2C33.5,37.1,33.5,37.2,33.5,37.2z" style="fill: inherit;"/><path d="M40.4,37.9C40.4,37.9,40.4,37.9,40.4,37.9C40.4,37.9,40.4,38,40.4,37.9L40.4,37.9L40.4,37.9z" style="fill: inherit;"/><path d="M40.4 38L40.4 38 40.4 38z" style="fill: inherit;"/><path d="M40.4,37.9C40.4,37.8,40.4,37.8,40.4,37.9L40.4,37.9z" style="fill: inherit;"/><path d="M45.3,40.2c0.7-0.8,1-1.7,1-2.8c0,0,0,0,0,0c0,0,0,0,0,0c0,0,0,0,0,0c0-0.2,0-0.3,0-0.5C46,35.3,45,34,43.5,33.4 c-1.6-0.6-3.5-0.1-4.6,1.2c-1.5,1.8-1.3,4.4,0.4,6S43.7,41.9,45.3,40.2z M43.8,37.1C43.8,37.1,43.8,37.2,43.8,37.1 c0,0.1,0,0.1,0,0.1C43.8,37.2,43.8,37.2,43.8,37.1z M40.3,37.1c0,0,0-0.1,0-0.2c0-0.1,0.1-0.3,0.1-0.4l0.1-0.2l0.1-0.2c0,0,0,0,0,0 c0,0,0,0,0,0c0.1-0.1,0.2-0.2,0.3-0.3h0.1c-0.1,0.1,0,0,0.1,0c0.1-0.1,0.3-0.1,0.4-0.2c0,0-0.3,0.1-0.1,0l0.2-0.1h0.2 c0,0,0,0,0.1,0c0,0,0.1,0,0.1,0h0.4l0.5,0.1c0.2,0.1,0.2,0.1,0.2,0.1l0.1,0.1c0,0,0,0,0.1,0.1l0.3,0.3c0,0.1,0.1,0.1,0.1,0.2 c0,0.1,0.1,0.1,0.1,0.2c0,0.1,0.1,0.2,0.1,0.3c0,0.1-0.1,0.2-0.1,0.3c0,0.1,0,0.1,0,0.2c0,0.1-0.1,0.3-0.1,0.4c0,0,0,0,0,0.1 c0,0,0,0,0,0c-0.1,0.1-0.2,0.3-0.2,0.4c0,0-0.1,0.1-0.1,0.1c0,0-0.1,0.1-0.1,0.1l0,0c-0.1,0.1-0.1,0.1,0,0 c-0.1,0.1-0.2,0.1-0.2,0.2l-0.1,0.1L42.2,39c-0.1,0-0.1,0-0.2,0h-0.4l-0.2-0.1l-0.2-0.1c-0.2,0,0.1,0,0.1,0c0,0-0.3-0.2-0.3-0.2 l-0.2-0.1c0,0-0.2-0.2-0.3-0.3l-0.1-0.2l0.1-0.1c0-0.1-0.1-0.3-0.1-0.4v-0.2C40.3,37.3,40.3,37.2,40.3,37.1z" style="fill: inherit;"/><path d="M42.2,39C42.2,38.9,42,39,42.2,39L42.2,39z" style="fill: inherit;"/><path d="M40.3,37.1C40.4,36.8,40.3,37,40.3,37.1L40.3,37.1z" style="fill: inherit;"/><path d="M86.8,67.6c-1-1.2-2.8,0.6-1.8,1.8l9.7,11.1L85,91.6c-1.1,1.2,0.7,3,1.8,1.8l10.5-12c0.5-0.5,0.5-1.3,0-1.8L86.8,67.6z" style="fill: inherit;"/><path d="M57.4,67.6L57.4,67.6L47,79.6c-0.5,0.5-0.5,1.3,0,1.8l10.4,12c1.1,1.2,2.8-0.6,1.8-1.8l-9.7-11.1l9.7-11.1 C60.3,68.2,58.5,66.4,57.4,67.6z" style="fill: inherit;"/><path d="M77,67.8l-10.4,21l-1.5,3c-0.7,1.4,1.4,2.7,2.2,1.3l10.5-21l1.5-3C79.8,67.7,77.7,66.4,77,67.8z" style="fill: inherit;"/></g></svg>
+                            <p class="code-text"> Coding</p>
+                            <p class="code-des">Coding, my digital realm of<br/>creativity and problem-solving.<br/>Lines of code intertwine to<br/>build intricate systems,<br/>bringing ideas to life. With<br/>each keystroke, I shape the<br/>future and embrace endless<br/>innovation.</p>
+                        </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact-area">
+        <div class="container">
+            <div class="contact-section">
+                <div class="contact-element">
+                    <div class="contact-box">
+                        <p class="contact-text"> Contact</p>
+                    </div>
+                    <div class="contact-details">
+                        <p class="phn">Phone Number:    700-815-3908</p>
+                        <p class="mail">Email Address: amdebasis8@gmail.com</p>
+                        <p class="Address">Address: Basudev Nagar, Tankapani Road,<br/>Bhubaneswar, Odisha, India, 751018</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+</body>
+</html>
